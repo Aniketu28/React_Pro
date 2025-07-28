@@ -24,7 +24,7 @@ const Sidebar = ({ expanded, toggleSidebar, children }) => {
         </div>
 
         {/* Sidebar items */}
-        <ul className="flex-1 overflow-y-auto px-3">{children}</ul>
+        <ul className="flex-1 overflow-y-auto overflow-x-hidden px-3">{children}</ul>
 
         {/* User Profile */}
         <div className="border-t flex p-3">
